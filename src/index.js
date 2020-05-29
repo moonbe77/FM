@@ -7,15 +7,14 @@ import { createGlobalStyle } from "styled-components";
 const GlobalStyle = createGlobalStyle`
   body{
     margin: 0px;
+    font-family: 'Inter', sans-serif;
     }
 `;
 
 ReactDOM.render(
   <React.StrictMode>
-    <React.Fragment>
       <GlobalStyle />
       <App />
-    </React.Fragment>
   </React.StrictMode>,
   document.getElementById("root")
 );
