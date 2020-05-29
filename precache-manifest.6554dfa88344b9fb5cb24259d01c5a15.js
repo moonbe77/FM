@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "19e19c3c46d4c184d2d469fbb94b79ce",
+    "revision": "388af2aff32fdb5f17663674a799ef0f",
     "url": "/FM_testimonials_slider/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/FM_testimonials_slider/static/js/2.d0a2d30e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a3f3b35fbc66ec9d8978",
-    "url": "/FM_testimonials_slider/static/js/main.fee72e78.chunk.js"
+    "revision": "cfa5431b3c28138c5255",
+    "url": "/FM_testimonials_slider/static/js/main.5b771aa7.chunk.js"
   },
   {
     "revision": "756a1ed0de6aa65ea2fa",
