@@ -8,31 +8,15 @@ const ImageContainer = styled.div`
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
+
   img {
+    box-shadow: -3px 41px 70px -52px rgba(81, 67, 190, 1);
     border-radius: 5px;
     width: 100%;
   }
-  .css3-shadow {
-    position: relative;
-    -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
-  }
-  /*==================================================
- * Drop shadow effect with box-shadow
- * ===============================================*/
-  .css3-shadow:after {
-    content: "";
-    position: absolute;
-    z-index: -1;
-    -webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.8);
-    bottom: 0px;
-    left: 10%;
-    right: 10%;
-    width: 80%;
-    height: 50%;
-    -moz-border-radius: 100%;
-    border-radius: 100%;
+
+  @media screen and (min-width: 900px) {
+    padding: 5%;   
   }
 `;
 
@@ -59,6 +43,11 @@ const Buttons = styled.div`
 
     img {
       width: initial;
+      transition: all 0.2s ease;
+    }
+
+    img:hover {
+      transform: scale(1.5);
     }
   }
 
@@ -69,6 +58,9 @@ const Buttons = styled.div`
   #button_next {
     border-radius: 0% 50% 50% 0%;
     /* width: 25px; */
+  }
+  @media screen and (min-width: 900px) {
+    transform: translate(-200px, -55px);
   }
 `;
 

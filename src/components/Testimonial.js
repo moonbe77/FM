@@ -12,6 +12,21 @@ const TestimonialContainer = styled.div`
   background-position-x: left;
   background-position-y: bottom;
   background-size: 300px;
+
+  @media screen and (min-width: 900px) {
+    width: 100%;
+    max-width: 1220px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 1em;
+    background-size: 500px;
+
+    div {
+      flex: 1;
+      z-index: 0;
+    }
+  }
 `;
 
 export default function Testimonial() {
@@ -24,7 +39,7 @@ export default function Testimonial() {
     }
   };
   const handleNextClick = (event) => {
-    if (testimonyNumber < data.length-1) {
+    if (testimonyNumber < data.length - 1) {
       setTestimonyNumber(testimonyNumber + 1);
     }
   };
