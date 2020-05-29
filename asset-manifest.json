@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/main.d5dd0c77.chunk.js",
+    "main.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/main.d5dd0c77.chunk.js.map",
+    "runtime-main.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/runtime-main.d2d25ff7.js",
+    "runtime-main.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/runtime-main.d2d25ff7.js.map",
+    "static/js/2.536a2056.chunk.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.536a2056.chunk.js",
+    "static/js/2.536a2056.chunk.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.536a2056.chunk.js.map",
+    "index.html": "/moonbe77.github.io/FM_testimonials_slider/index.html",
+    "precache-manifest.b8aba44b4deda3566e9169747894a138.js": "/moonbe77.github.io/FM_testimonials_slider/precache-manifest.b8aba44b4deda3566e9169747894a138.js",
+    "service-worker.js": "/moonbe77.github.io/FM_testimonials_slider/service-worker.js",
+    "static/js/2.536a2056.chunk.js.LICENSE.txt": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.536a2056.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2d25ff7.js",
+    "static/js/2.536a2056.chunk.js",
+    "static/js/main.d5dd0c77.chunk.js"
+  ]
+}
