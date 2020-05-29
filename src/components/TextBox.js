@@ -43,7 +43,7 @@ const TestimonyAuthor = styled.div`
     flex-direction: row;
     justify-content: left;
     align-items: baseline;
-    font-size: 0.8em;
+    font-size: 0.6em;
   }
 `;
 

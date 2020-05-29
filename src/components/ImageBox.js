@@ -4,7 +4,7 @@ import styled from "styled-components";
 const ImageContainer = styled.div`
   display: flex;
   padding: 10%;
-  background-image: url("../images/pattern-bg.svg");
+  background-image: url("/images/pattern-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
