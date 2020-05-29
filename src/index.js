@@ -8,13 +8,15 @@ const GlobalStyle = createGlobalStyle`
   body{
     margin: 0px;
     font-family: 'Inter', sans-serif;
+    font-size:32px;
+    box-sizing: content-box;
     }
 `;
 
 ReactDOM.render(
   <React.StrictMode>
-      <GlobalStyle />
-      <App />
+    <GlobalStyle />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );

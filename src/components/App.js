@@ -1,16 +1,11 @@
 import React from "react";
-import styled from "styled-components";
 import Testimonial from "./Testimonial";
-
-const Main = styled.main`
-  margin: auto;
-`;
 
 function App() {
   return (
-    <Main className='App'>
+    <main className='App'>
       <Testimonial />
-    </Main>
+    </main>
   );
 }
 
