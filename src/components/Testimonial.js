@@ -1,13 +1,14 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import ImageBox from "./ImageBox";
 import TextBox from "./TextBox";
 import db from "../utils/db.json";
+const publicPath = process.env.PUBLIC_URL
 
 const TestimonialContainer = styled.div`
   max-width: 375px;
   margin: auto;
-  background-image: url("../images/pattern-curve.svg");
+  background-image: url("${publicPath}/images/pattern-curve.svg");
   background-repeat: no-repeat;
   background-position-x: left;
   background-position-y: bottom;
@@ -33,6 +34,20 @@ export default function Testimonial() {
   const data = db.data;
   const [testimonyNumber, setTestimonyNumber] = useState(0);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      if (testimonyNumber < data.length - 1) {
+        setTestimonyNumber(testimonyNumber + 1);
+      } else {
+        setTestimonyNumber(testimonyNumber - 1);
+      }
+    }, 1000)
+
+    return () => {
+      clearInterval(timer);
+    }
+  })
+
   const handlePrevClick = (event) => {
     if (testimonyNumber > 0) {
       setTestimonyNumber(testimonyNumber - 1);
@@ -44,7 +59,6 @@ export default function Testimonial() {
     }
   };
 
-  console.log(testimonyNumber);
   return (
     <TestimonialContainer className='testimonial-container'>
       <ImageBox

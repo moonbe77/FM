@@ -1,10 +1,12 @@
 import React from "react";
 import styled from "styled-components";
+const publicPath = process.env.PUBLIC_URL
+
 
 const ImageContainer = styled.div`
   display: flex;
   padding: 10%;
-  background-image: url("/images/pattern-bg.svg");
+  background-image: url("${publicPath}/images/pattern-bg.svg");
   background-size: contain;
   background-repeat: no-repeat;
   position: relative;
@@ -69,16 +71,16 @@ export default function ImageBox({ data, handlePrevClick, handleNextClick }) {
     <ImageContainer>
       <img
         className='css3-shadow'
-        src={data.imgPath}
+        src={publicPath+data.imgPath}
         alt={data.name}
         title={data.name}
       />
       <Buttons>
         <div id='button_prev' onClick={handlePrevClick}>
-          <img src='./images/icon-prev.svg' alt='' title='' />
+          <img src={`${publicPath}/images/icon-prev.svg`} alt='' title='' />
         </div>
         <div id='button_next' onClick={handleNextClick}>
-          <img src='./images/icon-next.svg' alt='' title='' />
+          <img src={`${publicPath}/images/icon-next.svg`} alt='' title='' />
         </div>
       </Buttons>
     </ImageContainer>

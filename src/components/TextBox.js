@@ -4,7 +4,7 @@ import styled from "styled-components";
 const TextContainer = styled.div`
   font-size: 0.55em;
   text-align: center;
-  background-image: url("../images/pattern-quotes.svg");
+  background-image: url("./images/pattern-quotes.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   padding: 25px 15px 80px 15px;
