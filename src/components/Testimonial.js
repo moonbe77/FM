@@ -41,7 +41,7 @@ export default function Testimonial() {
       } else {
         setTestimonyNumber(testimonyNumber - 1);
       }
-    }, 1000)
+    }, 4000)
 
     return () => {
       clearInterval(timer);
