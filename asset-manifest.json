@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/FM_testimonials_slider/static/js/main.5b771aa7.chunk.js",
-    "main.js.map": "/FM_testimonials_slider/static/js/main.5b771aa7.chunk.js.map",
-    "runtime-main.js": "/FM_testimonials_slider/static/js/runtime-main.4dce535a.js",
-    "runtime-main.js.map": "/FM_testimonials_slider/static/js/runtime-main.4dce535a.js.map",
-    "static/js/2.d0a2d30e.chunk.js": "/FM_testimonials_slider/static/js/2.d0a2d30e.chunk.js",
-    "static/js/2.d0a2d30e.chunk.js.map": "/FM_testimonials_slider/static/js/2.d0a2d30e.chunk.js.map",
-    "index.html": "/FM_testimonials_slider/index.html",
-    "precache-manifest.6554dfa88344b9fb5cb24259d01c5a15.js": "/FM_testimonials_slider/precache-manifest.6554dfa88344b9fb5cb24259d01c5a15.js",
-    "service-worker.js": "/FM_testimonials_slider/service-worker.js",
-    "static/js/2.d0a2d30e.chunk.js.LICENSE.txt": "/FM_testimonials_slider/static/js/2.d0a2d30e.chunk.js.LICENSE.txt"
+    "main.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/main.18c0592a.chunk.js",
+    "main.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/main.18c0592a.chunk.js.map",
+    "runtime-main.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/runtime-main.d2d25ff7.js",
+    "runtime-main.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/runtime-main.d2d25ff7.js.map",
+    "static/js/2.65aff27d.chunk.js": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.65aff27d.chunk.js",
+    "static/js/2.65aff27d.chunk.js.map": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.65aff27d.chunk.js.map",
+    "index.html": "/moonbe77.github.io/FM_testimonials_slider/index.html",
+    "precache-manifest.c00245e84f58297bd6f241bd29443991.js": "/moonbe77.github.io/FM_testimonials_slider/precache-manifest.c00245e84f58297bd6f241bd29443991.js",
+    "service-worker.js": "/moonbe77.github.io/FM_testimonials_slider/service-worker.js",
+    "static/js/2.65aff27d.chunk.js.LICENSE.txt": "/moonbe77.github.io/FM_testimonials_slider/static/js/2.65aff27d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.4dce535a.js",
-    "static/js/2.d0a2d30e.chunk.js",
-    "static/js/main.5b771aa7.chunk.js"
+    "static/js/runtime-main.d2d25ff7.js",
+    "static/js/2.65aff27d.chunk.js",
+    "static/js/main.18c0592a.chunk.js"
   ]
 }
